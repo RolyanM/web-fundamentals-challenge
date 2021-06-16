@@ -1,0 +1,15 @@
+@import "./styles/variables";
+
+
+.outside__box {
+  border: 2px solid black;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.title__box {
+  border: 2px solid black;
+  display: flex;
+  }
