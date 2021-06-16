@@ -1,11 +1,77 @@
 .outside__box {
   border: 2px solid black;
   margin: 10px 10px;
-  display: flex;
-  justify-content: center;
+  padding: 2%;
+  height: 95vh;
 }
 
 .title__box {
+  border: 2px solid green;
+  margin: 10px auto;
+  width: 25vw;
+  text-align: center;
+}
+
+.inside-box {
   border: 2px solid black;
+  width: 98%;
+  height: 85%;
   display: flex;
+  flex-direction: row;
+  margin: 10px 10px;
+}
+.inside-box .far {
+  border: 2px solid black;
+  width: 50%;
+  height: 60%;
+  align-content: center;
+  margin: 10px;
+}
+.inside-box .top__rectangle {
+  border: 2px solid black;
+  width: 50%;
+  height: 50%;
+  margin: 10px;
+}
+.inside-box .mid__rectangle {
+  border: 2px solid black;
+  width: 50%;
+  height: 50%;
+  margin: 10px;
+}
+.inside-box .btm__rectangle {
+  border: 2px solid black;
+  width: 50%;
+  height: 50%;
+  margin: 10px;
+}
+.inside-box .left > div {
+  background-color: red;
+}
+.inside-box .mid-left > div {
+  background-color: orange;
+}
+.inside-box .mid-right > div {
+  background-color: yellow;
+}
+.inside-box .right > div {
+  background-color: lightyellow;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.mid-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mid-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
